@@ -2,7 +2,7 @@ import sys
 import random
 from PyQt6 import uic
 from PyQt6.QtGui import QPainter, QColor
-from PyQt6.QtWidgets import QWidget, QApplication, QPushButton
+from PyQt6.QtWidgets import QWidget, QApplication
 
 
 class Example(QWidget):
