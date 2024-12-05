@@ -13,6 +13,7 @@ class Example(QWidget):
         self.do_paint = False
         self.btn.clicked.connect(self.paint)
 
+
     def paintEvent(self, event):
         if self.do_paint:
             qp = QPainter()
