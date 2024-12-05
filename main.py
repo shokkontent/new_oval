@@ -27,7 +27,7 @@ class Example(QWidget):
 
     def draw_flag(self, qp):
         a = random.randint(10, 100)
-        qp.setBrush(QColor(255, 255, 0))
+        qp.setBrush(QColor(random.randint(0, 255), random.randint(0, 255), random.randint(0, 255)))
         qp.drawEllipse(random.randint(0, 200)
                        , random.randint(0, 200), a, a)
 
