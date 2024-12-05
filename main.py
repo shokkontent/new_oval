@@ -25,6 +25,7 @@ class Example(QWidget):
     def paint(self):
         self.do_paint = True
         self.update()
+        a = False
 
     def draw_flag(self, qp):
         a = random.randint(10, 100)
